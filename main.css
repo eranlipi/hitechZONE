@@ -1,0 +1,110 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.headerLogo{
+  background-color:#F3F3F3 ;
+  display: flex;
+  padding-inline-start: 2rem;
+}
+.nav-container{
+  display: flex;
+  background-color:rgba(0, 0, 0, 0.808) ;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+}
+.nav-container > div {
+  margin-inline-start:1rem;
+  padding: 1rem;
+  
+}
+.helloUser{
+  color:white;
+  flex-grow: 2;
+}
+#elbitLogo{
+  width: 10rem;
+  margin: 1rem 0 1rem 0;
+}
+.search{
+  margin-inline-end: 2rem;
+  flex-grow: 1;
+}
+#searchInput{
+  display: block;
+    width: 100%;
+    /* padding: .375rem .75rem; */
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .60rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  
+}
+
+.header-container{
+  display: flex;
+  width: 100%;
+
+}
+#headerImg{
+width: 100%;
+/* position: absolut; */
+}
+nav{
+  position: fixed;
+  width: 100%;
+  padding-right: 1rem;
+}
+main{
+  background-color: #0C0C0C;
+  height: 100%;
+  width: 100%;
+}
+.btn-Container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.btn{
+  display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 1.25rem;
+    width: 10rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.btn-yellow{
+  color: #ffc107;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffc107;
+}
+.btn-red{
+  color: #dc3545;
+  background-color: transparent;
+  background-image: none;
+  border-color: #dc3545;}
+.btn-blue{
+  color: #17a2b8;
+  background-color: transparent;
+  background-image: none;
+  border-color: #17a2b8;
+}
+.btn-green{
+  color: #28a745;
+  background-color: transparent;
+  background-image: none;
+  border-color: #28a745;
+}
